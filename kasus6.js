@@ -20,4 +20,4 @@ function hitungGajiMinggu(jam){
 }
 
 const totalGaji = hitungGajiMinggu(daftar);
-console.log(`Total gaji mingguan: Rp ${totalGaji}` );
+console.log(`Total gaji mingguan: Rp ${totalGaji.toLocaleString('id-ID')}` );
