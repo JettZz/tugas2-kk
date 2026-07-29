@@ -6,7 +6,7 @@ let daftar = [
 function kelompokkanAntreanPasien (kat){
     let kategori = []
     for (i = 0; i < kat.length; i++){
-        if (kat >= 60) {
+        if (kat[i].umur >= 60) {
             kat[i].kategori = 'Prioritas Lansia'
         } else {
             kat[i].kategori = 'Antrean Reguler'
