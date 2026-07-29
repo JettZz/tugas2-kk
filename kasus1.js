@@ -6,11 +6,11 @@ function hitungTotalBuku(totalHarga) {
         totalSemua += totalHarga[i]
     }
     
-     console.log('Harga Akhir: Rp.' + totalSemua)
+     console.log('Harga Akhir: Rp' + totalSemua.toLocaleString('id-ID'))
     if (totalSemua > 150000){
         console.log('anda mendapat diskon 15%')
         totalSemua = totalSemua - (totalSemua * 15 / 100) 
-        console.log(`Harga akhir: Rp.${totalSemua}`)
+        console.log(`Harga akhir: Rp${totalSemua.toLocaleString('id-ID')}`)
     } else {
         console.log('Tidak mendapat potongan')
     }
