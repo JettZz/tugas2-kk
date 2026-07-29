@@ -17,4 +17,5 @@ const produk = [
 ];
 
 const hasil = cekRestockGudang(produk, 5);
+console.log('Barang yang wajib di restock')
 console.log(hasil);
